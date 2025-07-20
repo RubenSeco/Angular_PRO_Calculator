@@ -11,5 +11,18 @@
   ],
   "include": [
     "src/**/*.d.ts"
-  ]
+  ],
+  "files.association": {
+    "ts": [
+      ".js"
+    ],
+    "css": "tailwind.css",
+  },
+  "angularCompilerOptions": {
+    "fullTemplateTypeCheck": true,
+    "strictInjectionParameters": true
+  },
+  "editor.quickSuggestions": {
+    "strings": "on"
+  },
 }

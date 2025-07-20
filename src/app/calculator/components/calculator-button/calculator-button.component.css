@@ -1,0 +1,17 @@
+
+@reference "../../../../styles.css";
+
+button {
+    @apply outline-none focus:outline-none text-white text-xl font-light;
+}
+
+button:hover {
+    @apply bg-indigo-700 opacity-60;
+}
+
+/* Clase para los botones de operaciones de la derecha */
+.is-command {
+    @apply  bg-indigo-700 opacity-40;
+}
+
+
