@@ -7,5 +7,6 @@
       "externalTemplate": true,
       "skipStyle": true
     }
-  }
+  },
+  "git.ignoreLimitWarning": true
 }

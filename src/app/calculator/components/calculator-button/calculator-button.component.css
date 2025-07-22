@@ -14,4 +14,10 @@ button:hover {
     @apply  bg-indigo-700 opacity-40;
 }
 
+.is-pressed {
+  @apply bg-indigo-800 opacity-40;
+}
+
+
+
 

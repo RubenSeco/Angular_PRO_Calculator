@@ -1,6 +1,7 @@
 <!-- La clase isCommand se define en css y se utiliza aquí -->
 
 <button [class.is-command]='isCommand()'
+        [class.is-pressed]='isPressed()'
         (click)="handleClick()"
         #button>
   <ng-content />
